@@ -14,4 +14,4 @@ then either set the `MULLVAD_CHECKER_AUTH` env in your .bashrc or specify the fi
 ![programExample](https://github.com/Repository42/MullvadServerChecker/blob/9359fa58abe8dc7e575f84e00d7a2b0957bb2062/programExample.png)
 
 ## Example TSV file
-an example tsv file of information can be found [here](https://Repository42/MullvadServerChecker/servers_28.07.2026.tsv)
+an example tsv file of information can be found [here](https://github.com/Repository42/MullvadServerChecker/servers_28.07.2026.tsv)
