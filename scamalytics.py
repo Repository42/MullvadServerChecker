@@ -66,7 +66,7 @@ class Scamalytics:
 		)
 
 if __name__ == "__main__":
-  ...
+	...
 	# import json
 	# with open("auth_scamalytics.json", "r") as fp:
 	# 	j = json.load(fp)
