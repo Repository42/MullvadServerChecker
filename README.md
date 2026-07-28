@@ -1,5 +1,5 @@
-# Mullvad server fraud score checker
-Helps you find clean ip addresses so you dont get discriminated against.
+# Mullvad server ip score checker
+Helps you find clean ip addresses so you don't get discriminated against.
 
 (if you run this too often scamalytics may rate limit you.)
 
