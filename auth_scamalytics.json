@@ -1,0 +1,15 @@
+{
+	"type": "cookies",
+	"cookies": [
+		{
+			"name": "cf_clearance",
+			"value": "",
+			"domain": "scamalytics.com"
+		},
+		{
+			"name": "PHPSESSID",
+			"value": "",
+			"domain": "scamalytics.com"
+		}
+	]
+}
