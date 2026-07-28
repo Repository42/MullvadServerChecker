@@ -1,23 +1,17 @@
 # Mullvad server fraud score checker
-Helps you find clean ip addresses so you dont get discriminated against by waf's
+Helps you find clean ip addresses so you dont get discriminated against.
 
-(if you run this too often scamalytics will rate limit you...)
-## Usage
-```
-root@debian:~/mullvad$ ./main.py
-Checking 660 servers.
-Enumerated 660 servers in: 5.86 Seconds.
-```
+(if you run this too often scamalytics may rate limit you.)
 
-## Output: 
-### openvpn:
-`head -n 20 openvpn_09.02.2025.csv | column -t -s ,`
+## NEW UPDATE (28/07/2026)
+added options for abuseipdb (although is less accurate)
 
-![ovpnEg](https://github.com/user-attachments/assets/6c2460e7-2adc-4a92-91f7-e551b5c4c1ee)
+just add your api key to the `auth_abuseipdb.json` file under the key `key`
 
-### wireguard:
+then either set the `MULLVAD_CHECKER_AUTH` env in your .bashrc or specify the file with `-c auth_abuseipdb.json`
 
-`head -n 20 wireguard_09.02.2025.csv | column -t -s ,`
+## Example running
+![programExample](https://github.com/Repository42/MullvadServerChecker/blob/9359fa58abe8dc7e575f84e00d7a2b0957bb2062/programExample.png)
 
-![wireguardEg](https://github.com/user-attachments/assets/996f03e1-73fe-4be0-adbc-455f1443fafc)
-
+## Example TSV file
+an example tsv file of information can be found [here](https://Repository42/MullvadServerChecker/servers_28.07.2026.tsv)
