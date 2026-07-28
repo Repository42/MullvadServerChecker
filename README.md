@@ -1,6 +1,8 @@
 # Mullvad server ip score checker
 Helps you find clean ip addresses so you don't get discriminated against.
 
+![programExample](https://github.com/Repository42/MullvadServerChecker/blob/9359fa58abe8dc7e575f84e00d7a2b0957bb2062/programExample.png)
+
 ## NEW UPDATE (28/07/2026)
 added options for abuseipdb (although is less accurate)
 
@@ -31,9 +33,6 @@ there is no rps limit so you don't need to supply `--threads`
 i recommend adding `--threads 20` if you are using the standard scamalytics api so you don't trip the limit rate.
 
 i also recommend adding cookies from scamalytics.com such as `cf_clearance` so you don't trip cloudflare.
-
-## Example running
-![programExample](https://github.com/Repository42/MullvadServerChecker/blob/9359fa58abe8dc7e575f84e00d7a2b0957bb2062/programExample.png)
 
 ## Example TSV file
 an example tsv file of information can be found [here](https://github.com/Repository42/MullvadServerChecker/blob/main/servers_28.07.2026.tsv)
